@@ -93,7 +93,7 @@ public class StressTestReportsController {
     /**
      * 生成测试报告及文件
      */
-    @SysLog("生成测试报告")
+    @SysLog("生成性能测试报告")
     @RequestMapping("/createReport")
     @RequiresPermissions("test:stress:reportCreate")
     public R createReport(@RequestBody Long[] reportIds) {
